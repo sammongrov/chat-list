@@ -21,7 +21,7 @@ import { styles } from 'react-native-theme';
 import { Actions } from 'react-native-router-flux';
 import {DBManager} from 'app-module';
 import MsgImg from '../../../src/images/messages.png';
-import Application from '../../../src/constants/config';
+import {Application} from '@mongrov/config';
 
 class ChatList extends React.PureComponent {
   static propTypes = {};
